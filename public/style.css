@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+* {
+  font-family: "Inter", serif;
+}
+
+body {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  max-width: 1200px;
+}
+p,
+h1,
+h2,
+h3,
+a,
+ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #222;
+}
+/* nav & footer styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  text-transform: uppercase;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+nav li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+nav h1 {
+  font-size: 3em;
+}
+nav p,
+nav a {
+  color: #777;
+  font-weight: 300;
+}
+footer {
+  color: #777;
+  text-align: center;
+  margin: 80px auto 20px;
+}
+h2 {
+  margin-bottom: 40px;
+}
+h3 {
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.content {
+  margin-left: 20px;
+  line-height: 30px;
+}
+/* index styles */
+.blogs a {
+  display: block;
+  margin: 40px 0;
+  padding-left: 30px;
+  border-left: 6px solid dodgerblue;
+}
+
+.blogs a:hover h3 {
+  color: dodgerblue;
+}
+/* details styles */
+.details {
+  position: relative;
+}
+.delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 4px;
+  padding: 8px 12px;
+  color: white;
+  background: red;
+}
+.delete:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+/* create styles */
+.create-blog form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.create-blog input,
+.create-blog textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  outline-color: dodgerblue;
+}
+.create-blog label {
+  display: block;
+  margin-top: 24px;
+}
+textarea {
+  height: 120px;
+}
+.create-blog button {
+  margin-top: 20px;
+  background: dodgerblue;
+  color: white;
+  padding: 12px 24px;
+  border: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+}
