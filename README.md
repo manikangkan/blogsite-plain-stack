@@ -1,4 +1,5 @@
 ## Blogsite
+#### Objective is to understand the fundamentails of an express-node app.
 
 ## 💫 Screenshots
 ![Screenshot (363)](https://user-images.githubusercontent.com/75943412/179337814-5ebe4954-e784-4551-ab28-fe533e2d93aa.png)
